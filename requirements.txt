@@ -1,0 +1,29 @@
+# Core GUI Dependencies
+PyQt5>=5.15.0
+pyqtgraph>=0.12.0
+pglive>=0.4.4
+
+# Data Processing
+numpy>=1.19.0
+pandas>=1.3.0
+scipy>=1.7.0  # For signal processing and support/resistance detection
+
+# WebSocket Support
+websockets>=10.0
+asyncio-mqtt>=0.10.0
+
+# Voice Announcements (optional)
+pygame>=2.0.0
+# elevenlabs>=0.2.0  # Uncomment if using ElevenLabs API
+
+# Bloomberg API (optional)
+# blpapi>=3.17.0  # Uncomment if using Bloomberg Terminal
+# xbbg>=0.7.0  # Uncomment if using xbbg as Bloomberg data fallback
+
+# Development Dependencies
+pytest>=6.0.0
+pytest-qt>=4.0.0
+pytest-asyncio>=0.18.0
+
+# Plotting (optional)
+matplotlib>=3.3.0
